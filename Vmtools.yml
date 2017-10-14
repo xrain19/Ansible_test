@@ -1,6 +1,3 @@
-- name: Hello World Sample
-  hosts: all
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+- name: Vmtools_install
+roles:
+         - { role: peru.vmwaretools}
