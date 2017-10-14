@@ -1,2 +1,6 @@
-roles:
-         - { role: peru.vmwaretools }
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
