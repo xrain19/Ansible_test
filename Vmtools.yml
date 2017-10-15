@@ -1,4 +1,3 @@
 - name: Vmtools_install
 - hosts: vm
-roles:
-         - { role: peru.vmwaretools}
+ role: peru.vmwaretools
