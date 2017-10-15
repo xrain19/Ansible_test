@@ -1,4 +1,4 @@
- 
+ - name: Vmtools
  - hosts: localhost
  roles:
       - peru.vmwaretools
